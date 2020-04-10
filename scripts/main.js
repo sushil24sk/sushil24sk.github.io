@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/L1.png') {
-      myImage.setAttribute ('src','images/labrador2.png');
+    if(mySrc === 'https://github.com/sushil24sk/sushil24sk.github.io/blob/master/images/L1.png') {
+      myImage.setAttribute ('src','https://github.com/sushil24sk/sushil24sk.github.io/blob/master/images/labrador2.png');
     } else {
-      myImage.setAttribute ('src','images/L1.png');
+      myImage.setAttribute ('src','https://github.com/sushil24sk/sushil24sk.github.io/blob/master/images/L1.png');
     }
 }
 
