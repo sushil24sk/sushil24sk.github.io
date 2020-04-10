@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'https://github.com/sushil24sk/sushil24sk.github.io/blob/master/images/L1.png') {
-      myImage.setAttribute ('src','https://github.com/sushil24sk/sushil24sk.github.io/blob/master/images/labrador2.png');
+    if(mySrc === 'https://drive.google.com/file/d/1HTOOQfq21xSDvOOv7Kq-8HuU5U9G8rkb/view?usp=sharing') {
+      myImage.setAttribute ('src','https://drive.google.com/file/d/1zcaqzkqE_E57coLM9gdqc2z1_ic8xDM1/view?usp=sharing');
     } else {
-      myImage.setAttribute ('src','https://github.com/sushil24sk/sushil24sk.github.io/blob/master/images/L1.png');
+      myImage.setAttribute ('src','https://drive.google.com/file/d/1HTOOQfq21xSDvOOv7Kq-8HuU5U9G8rkb/view?usp=sharing');
     }
 }
 
